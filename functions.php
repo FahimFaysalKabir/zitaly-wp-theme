@@ -8,6 +8,7 @@
         wp_enqueue_style('z-italy-slide',get_template_directory_uri().'/css/slide.css');
         wp_enqueue_style('z-italy-menu',get_template_directory_uri().'/css/menu.css');
         wp_enqueue_style('z-italy-font-awesome',get_template_directory_uri().'/font-awesome/css/font-awesome.min.css');
+        wp_enqueue_style('z-italy-main',get_stylesheet_uri());
 
         wp_enqueue_script('z-italy-classie',get_template_directory_uri().'/js/classie.js');
         wp_enqueue_script('z-italy-demo',get_template_directory_uri().'/js/demo.js');
